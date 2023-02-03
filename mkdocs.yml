@@ -1,0 +1,32 @@
+site_name: Stacks
+site_description: Stacks I use for Paper / Modded server-side plugins.
+site_author: Rattlyy
+copyright: Copyright © (2023) - Rattlyy
+
+theme:
+  name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    scheme: preference
+    primary: deep purple
+    accent: indigo
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 4
+
+repo_url: https://github.com/Rattlyy/Stacks
+repo_name: Rattlyy/Stacks
+
+edit_uri: edit/master/guide/docs/
+
+nav:
+  - Home: index.md
+  - Stacks:
+      - Quilt: quilt.md
